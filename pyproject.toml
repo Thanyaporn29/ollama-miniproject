@@ -1,0 +1,14 @@
+[project]
+name = "ollama-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "faiss-cpu>=1.15.1",
+    "kuzu>=0.11.3",
+    "langchain>=1.4.2",
+    "langchain-community>=0.4.2",
+    "langchain-ollama>=1.1.0",
+    "streamlit>=1.64.0",
+]
